@@ -1,0 +1,3 @@
+*Login básico en el cual el usuario Admin tiene acceso a toda la gestion del programa
+*Cualquier usuario que no sea el admin podrá iniciar sesion sin hacer cambios
+*Se podrán introducir nuevos usuarios con su correspondiente contraseña 

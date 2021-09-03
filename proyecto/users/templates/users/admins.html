@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Bienvenida Aministradores</title>
+</head>
+
+<body>
+  <p>Bienvenido <b>{{request.user.username}{% csrf_token %}}</b>, usted es exclusivamente admin.</p>
+  <a href="/logout">Cerrar sesión</a><!--Cerrar la sesion de administrador-->
+</body>
+
+</html>
